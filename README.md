@@ -36,8 +36,11 @@ Add a screenshot of your solution. The easiest way to do this is to use Firefox 
 Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it. 
 
 Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
+desktop:-
+![calc_desktop](https://github.com/kudos2Shef/Calculator/assets/16985060/20d58685-91e0-4ab5-a89d-946316423557)
 
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
+mobile:-
+![calc_mobile](https://github.com/kudos2Shef/Calculator/assets/16985060/4c6fd0b3-3eb1-4412-8837-b1ec5fdeed28)
 
 ### Links
 
