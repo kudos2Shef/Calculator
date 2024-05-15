@@ -86,7 +86,6 @@ $(document).ready(function () {
 		for(let i=0;i<theme1.length;i++){
 		if(val.includes(theme1[i].id)){
 			 item = theme1[i]
-			console.log(theme1[i].id,item)
 			$('body').css('background-color', item.body)
 			$('.calc').css('color',item.calc_them_numbtn_display_txt)
 			$('.theme').css('color',item.calc_them_numbtn_display_txt)
