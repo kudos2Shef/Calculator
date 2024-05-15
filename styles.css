@@ -1,0 +1,276 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --body: hsl(222, 26%, 31%);
+    --calc_them_numbtn_display_txt: hsl(0, 0%, 100%);
+    --toggle_btn_colr: hsl(6, 63%, 50%);
+    --display_bg: hsl(224, 36%, 15%);
+    --display_colr: hsl(0,0%,100%);
+    --container_togglebtn_bg: hsl(223,31%,20%);
+    --btn_bg: hsl(30, 25%, 89%);
+    --btn_colr: hsl(221, 14%, 31%);
+    --btn_hover: hsl(0, 0%, 100%);
+    --btn_shadow: 0px 3px hsl(28, 16%, 65%);
+    --del_reset_bg: hsl(225, 21%, 49%);
+    --del_reset_colr: hsl(0, 0%, 100%);
+    --del_reset_hover: '';
+    --del_reset_shadow: 0 3px hsl(224, 28%, 35%);
+    --equals: hsl(6, 63%, 50%);
+    --equals_hover: #fe7363;
+    --equals_shadow: 0 3px hsl(6, 70%, 34%);
+    --equals_colr: hsl(0, 0%, 100%);
+    
+}
+
+body{
+    display:grid;
+    place-content: center;
+    font-family: "League Spartan";
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  background-color:var(--body);
+
+
+}
+label{
+    gap: 1rem;
+    margin: 0 20px 0 20px;
+}
+label > button{
+    position: relative;
+    bottom: 3px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#display{
+    height: 5rem;
+    width: 380px;
+    font-size:32px;
+    font-weight:700;
+    background: hsl(224, 36%, 15%);
+   /* color:hsl(0,0%,100%);*/
+  color:var(--display_colr);
+    text-align:right;
+    border-radius:0.5rem;
+    border:none;
+    
+
+
+}
+#display:active{
+    border:none;
+
+}
+.inner-container{
+    width: 420px;
+    height: 453px;
+    border-radius: 0.5rem;
+    margin-top: 80px;
+}
+
+.container{
+    width:380px;
+    height: 330px;
+    margin-top:15px;
+    padding-top: 20px;
+    padding-bottom:20px;
+    background-color:var(--container_togglebtn_bg);
+    border-radius:0.5rem;
+
+  }
+ .container .btn{
+   box-shadow:var(--btn_shadow);
+    font-size:32px;
+    font-weight:700;
+   
+
+
+}
+
+.btn{
+    height:45px;
+    width:85px;
+    padding-top:0.15rem;
+    color:var(--btn_colr);
+    background-color: var(--btn_bg);
+    border:none;
+    
+}
+
+.btn:hover{
+    background-color: var(--btn_hover);
+    color:var(--btn_colr);
+    
+    
+}
+
+
+.btn:focus{
+    position: relative;
+    top:2px;
+    right:3px;
+    box-shadow:var(--btn_shadow);
+
+    
+}
+.btn.btn-success:active{
+    background-color:var(--btn_bg);
+    color:var(--btn_colr);
+}
+.row:nth-child(4) .btn:nth-child(2){
+    padding-left: 14px;
+   
+}
+
+.row:nth-child(4) .btn:nth-child(3){
+    padding-left: 14px;
+
+}
+
+
+.remove:nth-child(1){
+    width:165.5px;
+    padding-top:12px;
+    
+    
+}
+.remove:nth-child(2){
+    width:165.5px;
+    text-align:center;
+    background-color:var(--equals);
+    box-shadow:var(--equals_shadow);
+    color:var(--equals_colr);
+
+
+
+}
+.remove:nth-child(2):hover{
+    background-color: var(--equals_hover);/*rgba(255, 101, 0,0.6);*/
+}
+#clear,#del
+{ 
+    font-size:22px;
+    padding-top:0.5rem;
+    letter-spacing:1px;
+  color:var(--del_reset_colr);
+    background-color:var(--del_reset_bg);
+    box-shadow:var(--del_reset_shadow);
+}
+
+#clear:hover,#del:hover{
+   background-color:#9b92fa;/*rgba(205, 232, 229,0.8);*/
+    color:var(--del_reset_colr);
+
+
+}
+.col{
+    gap: 1rem;
+}
+.row{
+    gap:1rem;
+    margin-bottom: 1rem;
+}
+
+
+.attribution { font-size: 11px; text-align: center;padding-top:18px; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+
+.box-container{
+    display:grid;
+    grid-template-columns:16.85rem 4rem 2rem;
+    color:var(--calc_them_numbtn_display_txt);
+
+
+    }
+.theme{
+    margin-top:1rem;
+    font-size:15px;
+    }
+
+.calc{
+    font-size:24px;
+    margin-top:0.5rem;
+    padding-left:1.75rem;
+
+    }
+
+.toggle-container{
+    display:grid;
+    grid-template-rows:0rem ;
+    width:20px;
+    gap:1.1rem;
+    width:63px;
+}
+
+.toggle-btn label{
+display:none;
+}
+.toggle-btn .rd
+ {
+    appearance: none; /* Remove default radio button appearance */
+    -webkit-appearance: none; /* For older versions of WebKit browsers */
+    width: 13px; /* Adjust the width of the radio button */
+    height: 13px; /* Adjust the height of the radio button */
+    border-radius: 50%; /* Make it a circle */
+    /* background-color: #333;  Set background color */
+    outline: none; /* Remove outline */
+    cursor:pointer;
+    margin-top:3.85px;
+    
+  }
+
+  .toggle-btn .rd:checked{
+    background-color:var(--toggle_btn_colr);
+    cursor:pointer;
+  }
+
+.num-btn{
+    display:grid;
+    grid-template-columns:1rem 1rem 1rem  ;
+    padding-left:10px;
+    font-size:12px;
+}
+
+.toggle-btn{
+    height:20px;
+    border-radius:1rem;
+    background-color:var(--container_togglebtn_bg);
+    padding-left:5px;
+}
+
+@media screen and (max-width:600px) {
+   
+    #display{
+        width:320px;
+    }
+    .container{
+        height:370px;
+        width:320px;
+
+    }
+    .inner-container{
+        width:360px;
+        position:relative;
+        top:-0.75rem;
+    }
+    .btn{
+        padding-top:0.5rem;
+        height:55px;
+        width:78px;
+
+    }
+    .box-container{
+        grid-template-columns:13rem 4rem 2rem;
+
+    }
+    .attribution{
+        padding-top:3rem;
+    }
+}
