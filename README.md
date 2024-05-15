@@ -15,7 +15,6 @@ This is a solution to the [Calculator app challenge on Frontend Mentor](https://
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
 
@@ -42,8 +41,8 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/kudos2Shef/Calculator)
-- Live Site URL: [Add live site URL here](https://calculator-topaz-gamma.vercel.app/)
+- Solution URL: [Code Site](https://github.com/kudos2Shef/Calculator)
+- Live Site URL: [Live Site](https://calculator-topaz-gamma.vercel.app/)
 
 ## My process
 
