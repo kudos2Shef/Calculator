@@ -54,7 +54,7 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 - CSS custom properties
 - CSS Grid
 - Bootstrap Buttons
-- Responsive 
+- Mobile first Responsive Design 
 - [JQuery](https://jquery.com/) - JS library
 - [Bootstrap](https://getbootstrap.com/) - For styles
 
@@ -62,12 +62,24 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ### What I learned
 
+This is my second take on JS library JQuery and Bootstrap language but my first time manipulating UI using JQuery $().css() function. I learned and embedded css components when user enabled event is triggered. Implemented JQuery mouseover() and mouseleave() function to substitute  an :active pseudo selector css component, this is where I had trouble replacing Bootstrap implicit .btn .btn-success background-color using JQuery. Replacing Bootstrap default css property using css and JQuery learnt to do that.    
+
 Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
 
 To see how you can add code snippets, see below:
 
 ```html
-<h1>Some HTML code I'm proud of</h1>
+<div class="container ">
+
+<div class="row">
+      <div class="col d-flex justify-content-center">
+    <button class="btn btn-success btn-lg remove symbol " num ='C' id='clear'>
+    RESET</button>
+
+    <button class="btn btn-success btn-lg  remove symbol " num ='=' id='equals'>=</button>
+      </div>
+    </div>
+</div>
 ```
 ```css
 
@@ -103,20 +115,27 @@ $('.btn-success').click(function (e) {
 	})
 
   	exp = exp.replace(/x/g, '*')
-
-
+	let buf_temp = buffer.slice(0,buffer.length-indice)
+        if(buffer.match(  /\d*(\+|\x|\/){2,}/g )){}
+	if(  buffer.includes('-/') || buffer.includes('-x') || buffer.includes('-+')  ){}
+	if(buffer.search())
+	try{
+const result = eval(exp); }
+	catch (error) {
+				if (error instanceof EvalError) {
+ 				console.log('EvalError:', error.message);}
+				 else {
+ 			console.log('EvalError:', error.message);
+				}
+			}
 
 ```
 
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
-
-**Note: Delete this note and the content within this section and replace with your own learnings.**
 
 ### Continued development
 
 Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
 
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
 
 ### Useful resources
 
@@ -134,7 +153,5 @@ Use this section to outline areas that you want to continue focusing on in futur
 **Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
 
 ## Acknowledgments
-
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
-
+Using freecodecamp frontend framework calculator project I had completed the necessary cases required to pass the test case, for aesthetic UI appeal I came to this frontend mentor challenge based on which I designed this responsive calculator app. 
 **Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
