@@ -42,8 +42,8 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here](https://github.com/kudos2Shef/Calculator)
+- Live Site URL: [Add live site URL here](https://calculator-topaz-gamma.vercel.app/)
 
 ## My process
 
@@ -136,7 +136,6 @@ JS functions and JQuery manipulation to execute desired code requirements someth
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
 - Frontend Mentor - [@kudos2Shef](https://www.frontendmentor.io/profile/kudos2Shef)
 
 
