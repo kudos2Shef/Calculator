@@ -12,7 +12,6 @@ This is a solution to the [Calculator app challenge on Frontend Mentor](https://
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
@@ -62,7 +61,7 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ### What I learned
 
-This is my second take on JS library JQuery and Bootstrap language so far but my first time manipulating UI using JQuery $().css() function. I learned and embedded css components when user enabled event is triggered. Implemented JQuery mouseover() and mouseleave() function to substitute  an :active pseudo selector css component, this is where I had trouble replacing Bootstrap implicit .btn .btn-success background-color using JQuery. Replacing Bootstrap default css property using css and JQuery learnt achieve it. Usage of Regex pattern in calculator came very handy. Implemented regex pattern and javascript in-built function search(),slice(),includes(),match(),replace() for Cases like expression shouldn't contain multiple leading zeros (ex:-000000), shouldn't contain zero followed by a digit(ex:-0009 or 09), multiple sign not allowed except in case of a sign containing (/,+,*) followed by minus sign as 5x-5=-25, multiple (.) or (9.8.7) not allowed only one dot(.) allowed, 
+This is my second take on JS library JQuery and Bootstrap language so far but my first time manipulating UI using JQuery $().css() function. I learned and embedded css components when user enabled event is triggered. Implemented JQuery mouseover() and mouseleave() function to substitute  an :active pseudo selector css component, this is where I had trouble replacing Bootstrap implicit .btn .btn-success background-color using JQuery. Replacing Bootstrap default css property using css and JQuery learnt achieve it. Usage of Regex pattern in calculator came very handy. Implemented regex pattern and javascript in-built function search(),slice(),includes(),match(),replace() for Cases like expression shouldn't contain multiple leading zeros (ex:-000000), shouldn't contain zero followed by a digit(ex:-0009 or 09), multiple sign not allowed except in case of a sign containing (/,+,*) followed by minus sign as 5x-5=-25, multiple (.) or (9.8.7) not allowed only one dot(.) allowed etc. Included try catch such that when  equal button is clicked if eval error exist then addintion of digits allowed else a digit button clicked old digit gets replaced with newly clicked digit.  
 
 
 To see how you can add code snippets, see below:
@@ -135,21 +134,11 @@ const result = eval(exp); }
 
 JS functions and JQuery manipulation to execute desired code requirements something I find interesting and achievable .I have to practice in terms of Bootstrap compatibility with my code and  JQuery UI. 
 
-### Useful resources
-
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
-
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
-
 ## Author
 
 - Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Frontend Mentor - [@kudos2Shef](https://www.frontendmentor.io/profile/kudos2Shef)
 
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
 
 ## Acknowledgments
 Using freecodecamp frontend framework calculator project I had completed the necessary cases required to pass the test case, for aesthetic UI appeal I came to this frontend mentor challenge based on which I designed this responsive calculator app. 
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
