@@ -57,9 +57,9 @@ mobile:-
 ### What I learned
 
 This is my second take on JS library JQuery and Bootstrap language so far but my first time manipulating UI using JQuery $().css() function. I learned and embedded css components when user enabled event is triggered. It should be noted that there are two main schools of thought on calculator input logic: immediate execution logic and formula logic. 
-Example:- 3 + 5 x 6 - 2 / 4 =
-Immediate Execution Logic: 11.5
-Formula/Expression Logic: 32.5
+- Example:- 3 + 5 x 6 - 2 / 4 =
+- Immediate Execution Logic: 11.5
+- Formula/Expression Logic: 32.5
 ```My calculator solution utilizes formula logic/exprerssion logic and observes order of operation precedence, immediate execution does not. ```
 Implemented JQuery mouseover() and mouseleave() function to substitute  an :active pseudo selector css component, this is where I had trouble replacing Bootstrap implicit .btn .btn-success background-color using JQuery. Replacing Bootstrap default css property using css and JQuery learnt achieve it. Usage of Regex pattern in calculator came very handy. Implemented regex pattern and javascript in-built function search(),slice(),includes(),match(),replace() for Cases like expression shouldn't contain multiple leading zeros (ex:-000000), shouldn't contain zero followed by a digit(ex:-0009 or 09), multiple sign not allowed except in case of a sign containing (/,+,*) followed by minus sign as 5x-5=-25, multiple (.) or (9.8.7) not allowed only one dot(.) allowed etc. Included try catch such that when  equal button is clicked if eval error exist then addintion of digits allowed else a digit button clicked old digit gets replaced with newly clicked digit.  
 
