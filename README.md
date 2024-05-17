@@ -34,6 +34,7 @@ desktop:-
 
 
 mobile:-
+
 ![calc_mobile](https://github.com/kudos2Shef/Calculator/assets/16985060/4c6fd0b3-3eb1-4412-8837-b1ec5fdeed28)
 
 ### Links
