@@ -292,6 +292,20 @@ $(document).ready(function () {
           buffer = buf_temp + last
            $('#display').val(buffer)
         }
+		   //---------------- update
+    else if(buffer.includes('+-+')||buffer.includes('/-/')||buffer.includes('x-x')){
+            //console.log('problem');
+            let sign = buffer.match(/(\+|\x|\/){1}(\-)(\+|\x|\/){1}/g)
+            
+           sign = sign[0];
+           let buf_temp = buffer.slice(0,buffer.length-sign.length);
+           
+           buffer = buf_temp + temp;
+          // console.log(buffer)
+           $('#display').val(buffer)
+
+                             }
+    //---------------- update
           
           else if(buffer.includes('+-x') || buffer.includes('+-/') || buffer.includes('/-x') || buffer.includes('/-+') || buffer.includes('x-/') || buffer.includes('x-+') ){// /  (\*\-\+)|(\+\-\* )  /gm )){ /// [\/|\*|\+]\-[\/|\+|\*] /g ) ){
             console.log('yess')
